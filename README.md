@@ -10,4 +10,4 @@
 3.  npm start
 
 <b>Demo Link</b><br>
-<a href="https://brunel-assignment-1.netlify.app" target="_blank">https://brunel-assignment-1.netlify.app</a>
+<a href="https://thence-assignment-1.netlify.app" target="_blank">https://thence-assignment-1.netlify.app</a>
