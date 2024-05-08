@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+.font-grace {
+  font-family: "Covered By Your Grace", cursive;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-manrope {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.explore-arrow,
+.fourty,
+.spark,
+.rocket {
+  transition: all 0.25s;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.explore-btn:hover .explore-arrow {
+  transform: translateX(5px);
 }
-
-.App-link {
-  color: #61dafb;
+.fourty:hover {
+  transform: translateY(-4px);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fourty:hover .spark {
+  scale: 1.2;
+}
+.fourty:hover .rocket {
+  transform: translateY(-10px);
 }
