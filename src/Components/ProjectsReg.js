@@ -28,7 +28,7 @@ export default function ProjectsReg() {
   return (
     <div>
       <nav className="bg-white">
-        <div className="p-4 md:p-14 md:pt-4  mx-auto ">
+        <div className="p-4 md:p-14 md:pt-4  mx-auto">
           <div className="flex flex-wrap items-center justify-between rounded-[50px]  px-2 md:px-8 py-4">
             <a
               href="/"
